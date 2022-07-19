@@ -128,9 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\rendering\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\rendering\Window.h" />
     <ClInclude Include="src\utils\header.h" />
+    <ClInclude Include="src\utils\settings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
